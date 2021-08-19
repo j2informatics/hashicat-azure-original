@@ -5,13 +5,13 @@
 # Terraform code. If you create a variable with no default, the user will be
 # prompted to enter it (or define it via config file or command line flags.)
 
-variable "prefix" {
-  description = "This prefix will be included in the name of most resources."
+variable "prefix" /* variable name */ {
+  description = "This prefix will be included in the name of most resources." /* sugar */
 }
 
 variable "location" {
   description = "The region where the virtual network is created."
-  default     = "centralus"
+  default     = "centralus" /* variable value */
 }
 
 variable "address_space" {
