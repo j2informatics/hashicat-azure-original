@@ -13,3 +13,6 @@ a single terraform run will look at all .tf files in a single directory
 ## informational references
 
 See dependencies: https://28mm.github.io/blast-radius-docs/ 
+
+See https://play.instruqt.com/hashicorp/tracks/terraform-intro-azure
+
